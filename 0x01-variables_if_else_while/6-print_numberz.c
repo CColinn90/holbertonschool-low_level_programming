@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - imprime todos los numeros de un solo dijito
- * Return: si el cofigo funciona retorna 0
+ * Return: si el codigo funciona retorna 0
 */
 
 int main(void)
 {
-	char num;
+	int num;
 
-	for (num = 0 ; num <= 9 ; num++)
+	for (num = 0; num <= 9; num++)
 	{
 		putchar(num + '0');
 	}
