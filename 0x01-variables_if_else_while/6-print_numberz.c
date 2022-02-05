@@ -1,18 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
- * Return: Always 0 (Success)
- */
+ * main - imprime todos los numeros de un solo dijito
+ * Return: si el cofigo funciona retorna 0
+*/
+
 int main(void)
 {
-	int n;
+	char num;
 
-	for (n = '0'; n <= '9'; n++)
-{
-putchar(n);
-}
-putchar('\n');
-return (0);
+	for (num = 0 ; num <= 9 ; num++)
+	{
+		putchar(num + '0');
+	}
+	putchar('\n');
+	return (0);
 }
